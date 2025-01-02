@@ -12,5 +12,5 @@ Required Hardware:
 Optional:
 - Joysticks for testing or demonstration
 
-- [Setup](https://raw.githubusercontent.com/Setup (Initial version).png)
+- [Setup](https://raw.githubusercontent.com/Setup/(Initial version).png)
 
