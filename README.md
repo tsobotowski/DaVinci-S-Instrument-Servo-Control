@@ -1,5 +1,5 @@
 # DaVinci-S-Instrument-Servo-Control
-Some simple Arduino code and STLs to help reanimate instruments from DaVinci SI surgical systems
+Some simple Arduino code and STLs to interface with instruments from DaVinci SI surgical systems
 
 Required Hardware:
 - DaVinci S Large Suturecut Needle Driver
