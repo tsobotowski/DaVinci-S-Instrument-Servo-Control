@@ -58,7 +58,7 @@ void setFour(int pos){ // TODO ADD RELATION FOR GRIPS SO THEY ARENT FORCED PAST 
 }
 }
 
-void solve(int x, int y, int grip, int r){
+void solve(int x, int y, int grip, int r){ //Converts X, Y, Rotation, and grip angles to servo angle
   int onePos = r;
   int twoPos = x;
   int threePos = (x + y) + (grip / 2);
@@ -67,7 +67,7 @@ void solve(int x, int y, int grip, int r){
   Serial.println(abs(threePos - fourPos));
 }
 
-void set(int onePos, int twoPos, int threePos, int fourPos){
+void set(int onePos, int twoPos, int threePos, int fourPos){ //Set the servos to the appropriate position
   setOne(onePos);
   setTwo(twoPos);
   setThree(threePos);
